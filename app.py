@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 
-model = joblib.load(r"C:\Users\balas\OneDrive\Desktop\Balu\Myprojects\vs\cancer\lung_cancer_model.pkl")
+model = joblib.load("lung_cancer_model.pkl")
 
 st.set_page_config(page_title="Lung Cancer Predictor", layout="centered")
 st.title("🩺 Lung Cancer Risk Prediction")
